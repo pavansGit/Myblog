@@ -1,0 +1,56 @@
+
+.my-two{
+  text-align: right;
+}
+.my-one{
+  color: #7F7483;
+  padding-left: 200em;
+
+}
+.inner {
+  margin-top: calc(50% - 350px) !important;
+  margin-bottom: 30em  !important;
+}
+
+.my-three {
+
+}
+.sc-abc{
+  width: inherit;
+}
+
+.bo-txt {
+  margin-top: 5em;
+}
+
+.wdi{
+  font-size: 7em;
+  color: #7F7483;
+}
+
+.dig {
+  font-size: 5em;
+  color: #FFCD00;
+}
+
+.my-five {
+  float: right;
+}
+
+.sc-vxr{
+  display: grid;
+  grid-auto-flow: dense;
+}
+
+
+.ff1 {
+  display: block;
+}
+
+.ff2 {
+  display: block;
+}
+
+.ff3 {
+  display: block;
+}
