@@ -134,3 +134,7 @@ and (max-width : 568px){
    font-size: 1em;
   }
 }
+
+.phone{
+  text-align: right;
+}
