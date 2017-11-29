@@ -5,16 +5,9 @@ body{
 .my-two{
   text-align: right;
 }
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-  .my-two{
-    padding: right;
-  }
-}
 
 
-
+/*----Header----*/
 .my-one h1{
   color: #7F7483;
   font-family: open Sans,sans-serif;
@@ -22,40 +15,18 @@ and (max-width : 568px){
   padding-left: 6em;
   margin-top: 1px;
 }
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.my-one h1{
-  font-family: open sans,sans-serif;
-  font-size: 3.1em;
-  padding-left: 0.4em;
-  min-height: 10px;
-  margin-top: 0.5em;
-  font-weight: lighter;
 
-  }
-}
 .inner {
   margin-top: calc(20% - 50px) !important;
   margin-bottom: 30em  !important;
 
 }
 
-.sc-abc{
-  width: inherit;
-}
-
 .bo-txt {
   margin-top: 5em;
 }
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-  .bo-txt{
-    margin-top: 2em;
-  }
-}
 
+/*----site-inner-----*/
 .wdi{
   font-size: 6em;
   color: #7F7483;
@@ -63,46 +34,18 @@ and (max-width : 568px){
   padding-left: 0em;
   }
 
-  @media only screen
-  and (min-width : 320px)
-  and (max-width : 568px){
-  .wdi{
-    font-size: 3em;
-    line-height: 4em;
-    }
-  }
-
 .dig{
   font-size: 5em;
   color: #FFCD00;
   padding-right: 0em;
 }
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.dig{
-  font-size: 3em;
-  line-height: 0em;
 
-  }
-}
-
-.my-five {
-  float: right;
-}
+/*-----Footer section------*/
 
 .ff1 {
   color: #7F7483;
   font-family: open sans, sans-serif;
   font-size: 1.3em;
-}
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-.ff1{
-   text-align: left;
-   font-size: 1em;
-  }
 }
 
 .ff2 {
@@ -111,30 +54,137 @@ and (max-width : 568px){
   font-family: open sans, sans-serif;
   font-size: 1.3em;
 }
-@media only screen
-and (min-width : 320px)
-and (max-width : 568px){
-  .ff2{
-   text-align: center;
-   font-size: 1em;
-  }
-}
 
 .ff3 {
-  text-align: right;
+  text-align: center;
   color: #7F7483;
   font-family: open sans, sans-serif;
   font-size: 1.3em;
+
 }
+
+/*-----Media queries--for phone-----*/
 @media only screen
 and (min-width : 320px)
 and (max-width : 568px){
-.ff3{
-   text-align: right;
-   font-size: 1em;
+.my-one h1{
+  font-size: 3.1em;
+  padding-left: 0.4em;
+  min-height: 10px;
+  margin-top: 0.5em;
+  font-weight: lighter;
   }
+
+  .my-two{
+    padding: right;
+  }
+  .bo-txt{
+    margin-top: 2em;
+  }
+  .wdi{
+    font-size: 3em;
+    line-height: 4em;
+    }
+  .dig{
+      font-size: 3em;
+      line-height: 0em;
+  }
+
+  .ff1{
+     text-align: left;
+     font-size: 1em;
+    }
+
+    .ff2{
+       text-align: center;
+       font-size: 1em;
+      }
+
+  .ff3{
+       text-align: right;
+       font-size: 1em;
+    }
+  img{
+         padding-left: 2em;
+      }
 }
 
-.phone{
-  text-align: right;
+
+/*-----media queries for ipad-----*/
+
+@media only screen
+and (min-width : 568px)
+and (max-width : 768px){
+  .my-one h1{
+    font-size: 4.3em;
+    padding-left: 0em;
+    min-height: 10px;
+    margin-top: 0.5em;
+    font-weight: lighter;
+    }
+    .wdi{
+      font-size: 5em;
+      line-height: 4em;
+       }
+
+  .dig{
+        font-size: 5em;
+        line-height: 0.5em;
+        padding-left: 4.1em;
+    }
+
+  .ff1{
+       text-align: left;
+       font-size: 1.5em;
+      }
+
+  .ff2{
+      text-align: center;
+      font-size: 1.5em;
+        }
+  .ff3{
+       text-align: right;
+       font-size: 1.5em;
+      }
+  .phone{
+        padding-left: 2em;;
+      }
+  img{
+       padding-left: 1em;
+    }
+}
+
+/*-----media queries for ipad-pro-----*/
+
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1366px){
+  .my-one h1{
+    font-size: 13em;
+    padding-left: 0em;
+    min-height: 10px;
+    margin-top: 0.5em;
+    font-weight: lighter;
+    }
+  .wdi{
+    font-size: 16em;
+    line-height: 4em;
+     }
+  .dig{
+    font-size: 13em;
+    padding-left: 0.5em;
+    line-height: 0em;
+      }
+  .ff1{
+    text-align: left;
+    font-size: 3.5em;
+        }
+  .ff2{
+    text-align: center;
+    font-size: 2.5em;
+        }
+  .ff3{
+    font-size: 3.5em;
+    text-align: right;
+        }
 }
