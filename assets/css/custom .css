@@ -60,19 +60,41 @@ body{
   color: #7F7483;
   font-family: open sans, sans-serif;
   font-size: 1.3em;
-
 }
 
-/*-----Media queries--for phone-----*/
+.g{
+  color: #FFCD00;
+  font-family: cursive;
+  font-size: 1.1em;
+}
+
+.G{
+  color: #FFCD00;
+  font-family: cursive;
+  font-family: 2em;
+}
+
+img{
+  margin-top: 0em;
+}
+
+
+/*-----Media queries--for Iphone-----*/
 @media only screen
 and (min-width : 320px)
 and (max-width : 568px){
 .my-one h1{
-  font-size: 3.1em;
-  padding-left: 0.4em;
+  font-size: 3.7em;
+  padding-left: 0em;
   min-height: 10px;
   margin-top: 0.5em;
   font-weight: lighter;
+  }
+
+  .inner {
+    margin-top: calc(30% - 50px) !important;
+    margin-bottom: 12em  !important;
+
   }
 
   .my-two{
@@ -82,13 +104,14 @@ and (max-width : 568px){
     margin-top: 2em;
   }
   .wdi{
-    font-size: 3em;
+    font-size: 4.5em;
     line-height: 4em;
+    padding-left: 0em;
     }
   .dig{
-      font-size: 3em;
+      font-size: 4.5em;
       line-height: 0em;
-      padding-left: 3em;
+      padding-left: 1em;
   }
 
   .ff1{
@@ -105,87 +128,18 @@ and (max-width : 568px){
        text-align: right;
        font-size: 1em;
     }
-  img{
-         padding-left: 2em;
-      }
-}
 
-
-/*-----media queries for ipad-----*/
-
-@media only screen
-and (min-width : 568px)
-and (max-width : 768px){
-  .my-one h1{
-    font-size: 4.3em;
-    padding-left: 0em;
-    min-height: 10px;
-    margin-top: 0.5em;
-    font-weight: lighter;
-    }
-    .wdi{
-      font-size: 5em;
-      line-height: 4em;
-       }
-
-  .dig{
-        font-size: 5em;
-        line-height: 0.5em;
-        padding-left: 4.1em;
+  .g{
+    color: #FFCD00;
+    font-family: cursive;
+    font-size: 1.1em;
     }
 
-  .ff1{
-       text-align: left;
-       font-size: 1.5em;
-      }
-
-  .ff2{
-      text-align: center;
-      font-size: 1.5em;
-        }
-  .ff3{
-       text-align: right;
-       font-size: 1.5em;
-      }
-  .phone{
-        padding-left: 2em;;
-      }
-  img{
-       padding-left: 1em;
+  .G{
+    color: #FFCD00;
+    font-family: cursive;
+    font-family: 2em;
     }
-}
 
-/*-----media queries for ipad-pro-----*/
 
-@media only screen
-and (min-width : 1024px)
-and (max-width : 1366px){
-  .my-one h1{
-    font-size: 13em;
-    padding-left: 0em;
-    min-height: 10px;
-    margin-top: 0.5em;
-    font-weight: lighter;
-    }
-  .wdi{
-    font-size: 16em;
-    line-height: 4em;
-     }
-  .dig{
-    font-size: 13em;
-    padding-left: 0.5em;
-    line-height: 0em;
-      }
-  .ff1{
-    text-align: left;
-    font-size: 3.5em;
-        }
-  .ff2{
-    text-align: center;
-    font-size: 2.5em;
-        }
-  .ff3{
-    font-size: 3.5em;
-    text-align: right;
-        }
 }
