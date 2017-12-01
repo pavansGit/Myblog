@@ -6,7 +6,6 @@ body{
   text-align: right;
 }
 
-
 /*----Header----*/
 .my-one h1{
   color: #7F7483;
@@ -56,10 +55,12 @@ body{
 }
 
 .ff3 {
-  text-align: center;
+  text-align: right;
   color: #7F7483;
   font-family: open sans, sans-serif;
   font-size: 1.3em;
+  position: relative;
+  top: -58px;
 }
 
 .g{
@@ -74,9 +75,6 @@ body{
   font-family: 2em;
 }
 
-img{
-  margin-top: 0em;
-}
 
 
 /*-----Media queries--for Iphone-----*/
@@ -92,54 +90,96 @@ and (max-width : 568px){
   }
 
   .inner {
-    margin-top: calc(30% - 50px) !important;
-    margin-bottom: 12em  !important;
-
+  margin-top: calc(30% - 50px) !important;
+  margin-bottom: 12em  !important;
   }
 
   .my-two{
-    padding: right;
+  text-align: right;
   }
+
   .bo-txt{
-    margin-top: 2em;
+  margin-top: 2em;
   }
   .wdi{
-    font-size: 4.5em;
-    line-height: 4em;
-    padding-left: 0em;
+  font-size: 4.5em;
+  line-height: 4em;
+  padding-left: 0em;
     }
   .dig{
-      font-size: 4.5em;
-      line-height: 0em;
-      padding-left: 1em;
+  font-size: 4.5em;
+  line-height: 0em;
+  padding-left: 1em;
+  position: relative;
+  top: -55px;
   }
 
   .ff1{
-     text-align: left;
-     font-size: 1em;
+  text-align: left;
+  font-size: 1em;
     }
 
     .ff2{
-       text-align: center;
-       font-size: 1em;
+  text-align: center;
+  font-size: 1em;
       }
 
   .ff3{
-       text-align: right;
-       font-size: 1em;
+  text-align: right;
+  font-size: 1em;
+  position: relative;
+  top: -56px;
     }
 
   .g{
-    color: #FFCD00;
-    font-family: cursive;
-    font-size: 1.1em;
+  color: #FFCD00;
+  font-family: cursive;
+  font-size: 1.1em;
     }
 
   .G{
-    color: #FFCD00;
-    font-family: cursive;
-    font-family: 2em;
+  color: #FFCD00;
+  font-family: cursive;
+  font-family: 2em;
     }
 
+}
+/*media querie for ipad*/
+@media only screen
+and (min-width : 568px)
+and (max-width : 768px){
+  .my-one h1{
+    font-size: 4.5em;
+    padding-left: 0em;
+    min-height: 10px;
+    margin-top: 0em;
+    line-height: 2em;
+    }
+  .my-two{
+      text-align: right;
+    }
+  .wdi{
+    font-size: 6.3em;
+    text-align: left;
+    line-height: 1em;
+      }
+  .dig{
+    font-size: 5.5em;
+    padding-left: 3em;
+      }
+  .ff1{
+    text-align: left;
+    font-size: 1.5em;
+        }
+  .ff2{
+    text-align: center;
+    font-size: 1.5em;
+          }
+  .ff3{
+    text-align: right;
+    font-size: 1.5em;
+    position: relative;
+    top: -60px;
+          }
 
 }
