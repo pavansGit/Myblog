@@ -6,7 +6,7 @@ body{
   text-align: center;
   color: #7F7483;
   position: relative;
-  top: -70px;
+  top: -78px;
 }
 
 
@@ -121,7 +121,7 @@ and (max-width : 568px){
   line-height: 0em;
   padding-left: 1em;
   position: relative;
-  top: -45px;
+  top: -20px;
   }
 
   .ff1{
@@ -199,7 +199,7 @@ and (max-width : 768px){
     text-align: right;
     font-size: 1.5em;
     position: relative;
-    top: -60px;
+    top: -65px;
           }
 
 }
